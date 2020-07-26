@@ -503,16 +503,16 @@ footer{
 @media screen and (max-width:992px) {
 	.menu_wrap{
 		position:  fixed;
-		display: block;
-		top:-100%;
+		
+		
 		left: 50%;
-		transform: translate(-50%,0%);
+		transform: translate(-50%,-200%);
 		transition: all 0.8s ease 0s;
 		z-index: 100;
 	}
 	.menu_wrap.active{
-		display: block;
-		top:0px;
+		
+		transform: translate(-50%,0%);
 		transition: all 0.8s ease 0s;
 	}
 	.menu_wrap ul {
