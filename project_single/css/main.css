@@ -236,7 +236,7 @@ footer{
 	}
 		.menu_wrap{
 			width: 100%;
-			transform: translateY(-500%);
+			transform: translateY(-670%);
 			transition: all .5s ease;
 			}
 	.menu_wrap.active{
